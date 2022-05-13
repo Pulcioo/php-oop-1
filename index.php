@@ -43,3 +43,36 @@
     $movie_3 = new Movie('Pulp Fiction', 'Quentin Tarantino', '28-10-1994');
 
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>php-oop-1</title>
+</head>
+<body>
+    <h2><?php echo $movie_1->getTitle() ?></h2>
+    <ul>
+        <li>Titolo: <?php echo $movie_1->getTitle() ?></li>
+        <li>Diretto da: <?php echo $movie_1->getDirector() ?></li>
+        <li>Data di uscita: <?php echo $movie_1->getRelease() ?></li>
+    </ul>
+
+    <h2><?php echo $movie_2->getTitle() ?></h2>
+    <ul>
+        <li>Titolo: <?php echo $movie_2->getTitle() ?></li>
+        <li>Diretto da: <?php echo $movie_2->getDirector() ?></li>
+        <li>Data di uscita: <?php echo $movie_2->getRelease() ?></li>
+    </ul>
+
+    <h2><?php echo $movie_3->getTitle() ?></h2>
+    <ul>
+        <li>Titolo: <?php echo $movie_3->getTitle() ?></li>
+        <li>Diretto da: <?php echo $movie_3->getDirector() ?></li>
+        <li>Data di uscita: <?php echo $movie_3->getRelease() ?></li>
+    </ul>
+
+</body>
+</html>
